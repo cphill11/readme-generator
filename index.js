@@ -24,12 +24,6 @@ const questions = [
         message: 'Please describe the nature of your project.'
     },
     {
-        type: 'list',
-        name: 'license',
-        message: 'What license are you using?',
-        choices: ['MIT', 'Apache', 'GPU', 'Mozilla']
-    },
-    {
         type: 'input',
         name: 'installation',
         message: 'What installation instructions are required to run this application?'
@@ -38,6 +32,12 @@ const questions = [
         type: 'input',
         name: 'usage',
         message: 'How will this application be used?'
+    },
+    {
+        type: 'list',
+        name: 'license',
+        message: 'What license are you using?',
+        choices: ['MIT', 'Apache', 'GPU', 'Mozilla']
     },
     {
         type: 'input',
@@ -77,6 +77,5 @@ function init() {
 
     })
 }
-
 // Function call to initialize app
 init();
