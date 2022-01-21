@@ -32,11 +32,24 @@ const questions = [
         name: 'usage',
         message: 'How will this application be used?'
     },
+    // {
+    //     type: 'input',
+    //     name: 'licenseOption',
+    //     message: 'Do you want to list a license?',
+    //     default:
+    // },
     {
         type: 'list',
         name: 'license',
         message: 'What license are you using?',
-        choices: ['Apache', 'GNU', 'MIT', 'BSD', 'Boost', 'Creative', 'Eclipse', 'Mozilla', 'The Unlicense']  
+        choices: ['','Apache', 'GNU', 'MIT', 'BSD', 'Boost', 'Creative', 'Eclipse', 'Mozilla', 'The Unlicense'],
+        validate: licenseInput => {
+            if (licenseInput) {
+              return true;
+            } else {
+              return '';
+            }
+          }
     },
     {
         type: 'input',
