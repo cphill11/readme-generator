@@ -1,6 +1,6 @@
 # Professional README Generator Starter Code
 
-## Purpose
+## Description
 
 The purpose of this generator is to streamline creation of professional README.md files for developers who are working within a constrained time allotment.
 
@@ -27,10 +27,22 @@ Entering an email address adds that email to the 'Questions' section of the READ
 
 Clicking on the Table of Contents takes the user to the corresponding section of the README.
 
-## Built With
+## Installation
+* npm
+* inquirer
 
-- Javascript
-- Node.js
+## Usage
+Speed up file production of needed README.md files by answering prompts.
+
+// Provide instructions and examples for use. Include screenshots as needed.
+
+To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
+
+```md
+![alt text](assets/images/screenshot.png)
+```
+
+
 
 ## Website
 
@@ -38,6 +50,16 @@ Clicking on the Table of Contents takes the user to the corresponding section of
 
 ![Screenshot](/assets/images/screenshot.png)
 
-## Created by:
+## Credits:
 
-Criste Phillips
+Criste Phillips (link to github profile)
+
+## License
+MIT
+
+## Badges
+![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
+
+## Contributing
+Sticky paws off unless checking with original creator first.  No exceptions.
+

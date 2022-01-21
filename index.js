@@ -1,17 +1,16 @@
-// TODO: Include packages needed for this application
 // const inquirer required to run the inquirer package
 const inquirer = require('inquirer');
 
 // const fs required to run node.js fs module
 const fs = require('fs');
 
-// helps w/ file path & creating directory names
+// path module of node.js; helps w/ file & directory paths
 const path = require('path');
 
-//
+// conects index.jx to generateMarkdown.js
 const generateMarkdown = require ('./utils/generateMarkdown');
 
-// TODO: Create an array of questions for user input
+// question array created to obtain user input
 const questions = [
     {
         type: 'input',
@@ -37,25 +36,7 @@ const questions = [
         type: 'list',
         name: 'license',
         message: 'What license are you using?',
-        choices: ['Apache', 'GNU', 'MIT', 'BSD', 'Boost', 'Creative', 'Eclipse', 'Mozilla', 'The Unlicense'] 
-      
-
-
-// Apache License 2.0
-// GNU General Public License v3.0
-// MIT License
-// BSD 2-Clause "Simplified" License
-// BSD 3-Clause "New" or "Revised" License
-// Boost Software License 1.0
-// Creative Commons Zero v1.0 Universal
-// Eclipse Public License 2.0
-// GNU Affero General Public License v3.0
-// GNU General Public License v2.0
-// GNU Lesser General Public License v2.1
-// Mozilla Public License 2.0
-// The Unlicense
-
-
+        choices: ['Apache', 'GNU', 'MIT', 'BSD', 'Boost', 'Creative', 'Eclipse', 'Mozilla', 'The Unlicense']       
     },
     {
         type: 'input',
@@ -81,12 +62,12 @@ const questions = [
 ];
 
 
-// TODO: Create a function to write README file
+// function created to write README file
 function writeToFile(fileName, data) {
     return fs.writeFileSync(path.join(process.cwd(), fileName), data)
 }
 
-// TODO: Create a function to initialize app
+// function created to initialize app
 function init() {
     inquirer.prompt(questions)
     .then((answers) => {
@@ -95,5 +76,5 @@ function init() {
 
     })
 }
-// Function call to initialize app
+// Function call used to initialize app
 init();
