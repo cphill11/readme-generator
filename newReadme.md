@@ -1,8 +1,8 @@
-# purple
+# README DUDE
 
-![github license](https://img.shields.io/badge/License-Apache-blue.svg)
+![github license](https://img.shields.io/badge/License-MIT-blue.svg)
 
-color
+Holy hail mary batman
 
 ## Table of Contents
 
@@ -15,22 +15,22 @@ color
 
 
 ## Installation
-blab
+npm, inquirer
 
 ## Usage
-poker
+time saver
 
 ## License
-Apache
+MIT
+Licensed software establishes the rights of all parties involved with the software, including: the author, the provider, and end users.  Licenses protect intellectual properties by limiting the liability of the vendor and limiting what other parties can do with covered software code.
 
 ## Contribution
-do eeet
+NONONONONONOONO
 
 ## Tests
-all of them
+LMAO
 
 ## Questions
 
-If you have any questions, please contact me through email at bloob or through github at .
-
+If you have any questions, please contact me through email at blurb or through github at BOB.
 

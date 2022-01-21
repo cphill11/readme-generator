@@ -39,6 +39,7 @@ ${data.usage}
 
 ## License
 ${data.license}
+Licensed software establishes the rights of all parties involved with the software, including: the author, the provider, and end users.  Licenses protect intellectual properties by limiting the liability of the vendor and limiting what other parties can do with covered software code.
 
 ## Contribution
 ${data.contribution}
@@ -48,8 +49,7 @@ ${data.tests}
 
 ## Questions
 
-If you have any questions, please contact me through email at ${data.email} or through github at .
-
+If you have any questions, please contact me through email at ${data.email} or through github at ${data.github}.
 
 `;
 }
