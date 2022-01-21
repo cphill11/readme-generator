@@ -2,7 +2,11 @@
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
   return `![github license](https://img.shields.io/badge/License-${license}-blue.svg)`
- 
+    if (license) {
+      return true;
+    } else {
+      return '';
+    }
 }
 
 // TODO: Create a function that returns the license link
@@ -17,40 +21,39 @@ function renderLicenseSection(license) {}
 function generateMarkdown(data) {
   return `# ${data.title}
 
-${renderLicenseBadge(data.license)}
+  ${renderLicenseBadge(data.license)}
 
-${data.description}
+  ${data.description}
 
-## Table of Contents
+  ## Table of Contents
 
-* [Installation](#installation)
-* [Usage](#usage)
-* [License](#license)
-* [Contribution](#contribution)
-* [Tests](#tests)
-* [Questions](#questions)
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [License](#license)
+  * [Contribution](#contribution)
+  * [Tests](#tests)
+  * [Questions](#questions)
 
 
-## Installation
-${data.installation}
+  ## Installation
+  ${data.installation}
 
-## Usage
-${data.usage}
+  ## Usage
+  ${data.usage}
 
-## License
-${data.license}
-Licensed software establishes the rights of all parties involved with the software, including: the author, the provider, and end users.  Licenses protect intellectual properties by limiting the liability of the vendor and limiting what other parties can do with covered software code.
+  ## License
+  ${data.license}
+  Licensed software establishes the rights of all parties involved with the software, including: the author, the provider, and end users.  Licenses protect intellectual properties by limiting the liability of the vendor and limiting what other parties can do with covered software code.
 
-## Contribution
-${data.contribution}
+  ## Contribution
+  ${data.contribution}
 
-## Tests
-${data.tests}
+  ## Tests
+  ${data.tests}
 
-## Questions
+  ## Questions
 
-If you have any questions, please contact me through email at ${data.email} or through github at ${data.github}.
-
+  If you have any questions, please contact me through email at ${data.email} or through github at ${data.github}.
 `;
 }
 
