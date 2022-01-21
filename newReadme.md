@@ -1,6 +1,6 @@
 # purple
 
-![github license](https://img.shields.io/badge/License-MIT-blue.svg)
+![github license](https://img.shields.io/badge/License-Apache-blue.svg)
 
 color
 
@@ -15,22 +15,22 @@ color
 
 
 ## Installation
-install node
+blab
 
 ## Usage
-build a rainbow
+poker
 
 ## License
-MIT
+Apache
 
 ## Contribution
-build it all
+do eeet
 
 ## Tests
-bleeb blarb bloob
+all of them
 
 ## Questions
 
-If you have any questions, please contact me through email at bleeber or through github at .
+If you have any questions, please contact me through email at bloob or through github at .
 
 
