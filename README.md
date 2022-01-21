@@ -42,3 +42,4 @@ WHEN email address is entered:
 
 WHEN links in the Table of Contents is clicked on:
 	• THEN I am taken to the corresponding section of the README
+
