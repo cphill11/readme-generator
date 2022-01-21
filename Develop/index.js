@@ -1,4 +1,9 @@
 // TODO: Include packages needed for this application
+// const inquirer required to run the inquirer package
+const inquirer = require('inquirer');
+
+// const fs required to run node.js fs module
+const fs = require('fs');
 
 // TODO: Create an array of questions for user input
 const questions = [];
