@@ -42,14 +42,7 @@ const questions = [
         type: 'list',
         name: 'license',
         message: 'What license are you using?',
-        choices: ['','Apache', 'GNU', 'MIT', 'BSD', 'Boost', 'Creative', 'Eclipse', 'Mozilla', 'The Unlicense'],
-        validate: licenseInput => {
-            if (licenseInput) {
-              return true;
-            } else {
-              return '';
-            }
-          }
+        choices: ['','Apache', 'GNU', 'MIT', 'BSD', 'Boost', 'Creative', 'Eclipse', 'Mozilla', 'The Unlicense']
     },
     {
         type: 'input',
