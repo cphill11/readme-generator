@@ -1,45 +1,43 @@
 # Professional README Generator Starter Code
 
-[How to create a Professional README](./readme-guide.md)
+## Purpose
 
-****************************************
-instructions from challenge requirement:
+The purpose of this generator is to streamline creation of professional README.md files for developers who are working within a constrained time allotment.
 
-README generator that quickly creates a professional README for a new project
+This is a command-line application that accepts user input as users respond to question prompts and then generates a high-quality, professional README.md completed with the:
 
+- Title of the project
+- Sections:
+  - Description
+  - Table of Contents
+  - Installation
+  - Usage
+  - License
+  - Contributing
+  - Tests
+  - Questions
 
-GIVEN a command-line application that accepts user input
-WHEN prompted for information about my application repository
-	• THEN a high-quality, professional README.md is generated with the title of my project and sections entitled:
-		○ Description
-		○ Table of Contents
-		○ Installation
-		○ Usage
-		○ License
-		○ Contributing
-		○ Tests
-		○ Questions
-		
-WHEN project title entered
-	• THEN this is displayed as the title of the README
+Choosing a license for the application from the list of options chosen generates a badge for that license near the top of the README.
 
-WHEN a description, installation instructions, usage information, contribution guidelines, and test instructions are entered: 
-	• THEN this information is added to the sections of the README entitled:
-		○ Description
-		○ Installation
-		○ Usage
-		○ Contributing
-		○ Tests
-	
-WHEN a license for my application from a list of options chosen:
-	• THEN a badge for that license is added near the top of the README and a notice is added to the section of the README entitled License that explains which license the application is covered under
-	
-WHEN GitHub username is entered:
-	• THEN this is added to the section of the README entitled Questions, with a link to my GitHub profile
+To DO: A notice is added to the section of the README entitled License that explains which license the application is covered under
 
-WHEN email address is entered:
-	• THEN this is added to the section of the README entitled Questions, with instructions on how to reach me with additional questions
+Entering a GitHub username will add the GitHub username to 'Questions' section of the README, with a link to my GitHub profile.
 
-WHEN links in the Table of Contents is clicked on:
-	• THEN I am taken to the corresponding section of the README
+Entering an email address adds that email to the 'Questions' section of the README, with instructions on how to reach me with additional questions
 
+Clicking on the Table of Contents takes the user to the corresponding section of the README.
+
+## Built With
+
+- Javascript
+- Node.js
+
+## Website
+
+## Image
+
+![Screenshot](/assets/images/screenshot.png)
+
+## Created by:
+
+Criste Phillips
