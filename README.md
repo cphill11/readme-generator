@@ -62,4 +62,3 @@ MIT
 
 ## Contributing
 Sticky paws off unless checking with original creator first.  No exceptions.
-
