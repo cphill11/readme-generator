@@ -1,45 +1,64 @@
 # Professional README Generator Starter Code
 
-[How to create a Professional README](./readme-guide.md)
+## Description
 
-****************************************
-instructions from challenge requirement:
+The purpose of this generator is to streamline creation of professional README.md files for developers who are working within a constrained time allotment.
 
-README generator that quickly creates a professional README for a new project
+This is a command-line application that accepts user input as users respond to question prompts and then generates a high-quality, professional README.md completed with the:
+
+- Title of the project
+- Sections:
+  - Description
+  - Table of Contents
+  - Installation
+  - Usage
+  - License
+  - Contributing
+  - Tests
+  - Questions
+
+Choosing a license for the application from the list of options chosen generates a badge for that license near the top of the README.
+
+To DO: A notice is added to the section of the README entitled License that explains which license the application is covered under
+
+Entering a GitHub username will add the GitHub username to 'Questions' section of the README, with a link to my GitHub profile.
+
+Entering an email address adds that email to the 'Questions' section of the README, with instructions on how to reach me with additional questions
+
+Clicking on the Table of Contents takes the user to the corresponding section of the README.
+
+## Installation
+* npm
+* inquirer
+
+## Usage
+Speed up file production of needed README.md files by answering prompts.
+
+// Provide instructions and examples for use. Include screenshots as needed.
+
+To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
+
+```md
+![alt text](assets/images/screenshot.png)
+```
 
 
-GIVEN a command-line application that accepts user input
-WHEN prompted for information about my application repository
-	• THEN a high-quality, professional README.md is generated with the title of my project and sections entitled:
-		○ Description
-		○ Table of Contents
-		○ Installation
-		○ Usage
-		○ License
-		○ Contributing
-		○ Tests
-		○ Questions
-		
-WHEN project title entered
-	• THEN this is displayed as the title of the README
 
-WHEN a description, installation instructions, usage information, contribution guidelines, and test instructions are entered: 
-	• THEN this information is added to the sections of the README entitled:
-		○ Description
-		○ Installation
-		○ Usage
-		○ Contributing
-		○ Tests
-	
-WHEN a license for my application from a list of options chosen:
-	• THEN a badge for that license is added near the top of the README and a notice is added to the section of the README entitled License that explains which license the application is covered under
-	
-WHEN GitHub username is entered:
-	• THEN this is added to the section of the README entitled Questions, with a link to my GitHub profile
+## Website
 
-WHEN email address is entered:
-	• THEN this is added to the section of the README entitled Questions, with instructions on how to reach me with additional questions
+## Image
 
-WHEN links in the Table of Contents is clicked on:
-	• THEN I am taken to the corresponding section of the README
+![Screenshot](/assets/images/screenshot.png)
 
+## Credits:
+
+Criste Phillips (link to github profile)
+
+## License
+MIT
+
+## Badges
+![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
+
+## Contributing
+Sticky paws off unless checking with original creator first.  No exceptions.
