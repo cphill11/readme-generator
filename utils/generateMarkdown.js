@@ -8,10 +8,10 @@ function renderLicenseBadge(license) {
 }
 
 // TODO: Create a function that returns the license link
-// If there is no license, return an empty string
+// If there is no license, return an empty string; this is completed in Table of Contents
 function renderLicenseLink(license) {
   if (license != '') {
-    
+    return `* [License](#license)`
   } else {
     return '';
   }
@@ -19,14 +19,36 @@ function renderLicenseLink(license) {
 }
 
 // TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
+// If there is no license, return an empty string; this is completed in Table of Contents
 function renderLicenseSection(license) {
   if (license != '') {
-    
+    return `## License
+    ${license}
+    Licensed software establishes the rights of all parties involved with the software, including: the author, the provider, and end users.  Licenses protect intellectual properties by limiting the liability of the vendor and limiting what other parties can do with covered software code.`
   } else {
     return '';
   }
 }
+// Function created that returns a license badge based on which license is passed in; if there is no license, an empty string is returned
+function renderTestLink(tests) {
+  if (tests != '')  { 
+  return `* [Tests](#tests)`
+} else {
+  return '';
+}
+}
+
+// TODO: Create a function that returns the license link
+// If there is no license, return an empty string; this is completed in Table of Contents
+function renderTestSection(tests) {
+if (tests != '') {
+return `## Tests 
+    ${tests}`
+} else {
+return '';
+}
+}
+
 
 // Function created to generate markdown for README
 function generateMarkdown(data) {
@@ -40,8 +62,9 @@ function generateMarkdown(data) {
 
   * [Installation](#installation)
   * [Usage](#usage)
-  * [License](#license)
+  ${renderLicenseLink(data.license)}
   * [Contribution](#contribution)
+  ${renderTestLink(data.tests)}
   * [Tests](#tests)
   * [Questions](#questions)
 
@@ -52,15 +75,13 @@ function generateMarkdown(data) {
   ## Usage
   ${data.usage}
 
-  ## License
-  ${data.license}
-  Licensed software establishes the rights of all parties involved with the software, including: the author, the provider, and end users.  Licenses protect intellectual properties by limiting the liability of the vendor and limiting what other parties can do with covered software code.
+  ${renderLicenseSection(data.license)}
+
 
   ## Contribution
   ${data.contribution}
 
-  ## Tests
-  ${data.tests}
+  ${renderTestSection(data.tests)}
 
   ## Questions
 

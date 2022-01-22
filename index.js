@@ -49,6 +49,11 @@ const questions = [
         name: 'contribution',
         message: 'What are the contibution guidelines?'
     },
+    // {
+    //     type: 'input',
+    //     name: 'maybeTest',
+    //     message: 'Will you use tests to evaluate this application?'
+    // },
     {
         type: 'input',
         name: 'tests',
