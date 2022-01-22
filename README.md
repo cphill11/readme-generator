@@ -17,9 +17,7 @@ This is a command-line application that accepts user input as users respond to q
   - Tests
   - Questions
 
-Choosing a license for the application from the list of options chosen generates a badge for that license near the top of the README.
-
-To DO: A notice is added to the section of the README entitled License that explains which license the application is covered under
+Choosing a license for the application from the list of options chosen generates a badge for that license near the top of the README.  A notice is added to the section of the README entitled License that explains which license the application is covered under
 
 Entering a GitHub username will add the GitHub username to 'Questions' section of the README, with a link to my GitHub profile.
 
@@ -34,17 +32,9 @@ Clicking on the Table of Contents takes the user to the corresponding section of
 ## Usage
 Speed up file production of needed README.md files by answering prompts.
 
-// Provide instructions and examples for use. Include screenshots as needed.
-
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-
-```md
-![alt text](assets/images/screenshot.png)
-```
-
-
 
 ## Website
+https://cphill11.github.io/readme-generator/
 
 ## Image
 
