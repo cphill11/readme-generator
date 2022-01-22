@@ -7,7 +7,7 @@ const fs = require('fs');
 // path module of node.js; helps w/ file & directory paths
 const path = require('path');
 
-// conects index.jx to generateMarkdown.js
+// connects index.js to generateMarkdown.js
 const generateMarkdown = require ('./utils/generateMarkdown');
 
 // question array created to obtain user input
@@ -32,12 +32,6 @@ const questions = [
         name: 'usage',
         message: 'How will this application be used?'
     },
-    // {
-    //     type: 'input',
-    //     name: 'licenseOption',
-    //     message: 'Do you want to list a license?',
-    //     default:
-    // },
     {
         type: 'list',
         name: 'license',
@@ -49,11 +43,6 @@ const questions = [
         name: 'contribution',
         message: 'What are the contibution guidelines?'
     },
-    // {
-    //     type: 'input',
-    //     name: 'maybeTest',
-    //     message: 'Will you use tests to evaluate this application?'
-    // },
     {
         type: 'input',
         name: 'tests',
@@ -69,9 +58,7 @@ const questions = [
         name: 'email',
         message: 'What is the email you would like used for contact?'
     },
-
 ];
-
 
 // function created to write README file
 function writeToFile(fileName, data) {
@@ -84,7 +71,6 @@ function init() {
     .then((answers) => {
         //console.log(answers.title);
         writeToFile('newReadme.md', generateMarkdown({...answers}))
-
     })
 }
 // Function call used to initialize app
