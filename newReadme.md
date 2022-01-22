@@ -1,9 +1,9 @@
-# CCC
+# README, Red-me.
 
-  ![github license](https://img.shields.io/badge/License-GNU-blue.svg)
+  ![github license](https://img.shields.io/badge/License-Apache-blue.svg)
 
   ## Description
-  CCCDDD
+  Purportedly to make my life easier, I'm dubious at this time.
 
   ## Table of Contents
   * [Installation](#installation)
@@ -12,25 +12,24 @@
   * [License](#license)
   * [Contribution](#contribution)
 
-  * [Tests](#tests)
+  
   * [Questions](#questions)
 
   ## Installation
-  CCDDCC
+  npm, inquirer
 
   ## Usage
-  CC
+  Sanity restoration 
 
   ## License
-    GNU
+    Apache
     Licensed software establishes the rights of all parties involved with the software, including: the author, the provider, and end users.  Licenses protect intellectual properties by limiting the liability of the vendor and limiting what other parties can do with covered software code.
 
   ## Contribution
-  CD
+  No. No. NO.
 
-  ## Tests 
-    CD
+  
 
   ## Questions
 
-  If you have any questions, please contact me through email at CCCCCCCC or through github at C.
+  If you have any questions, please contact me through email at Booger@booger.com or through github at Booger.
