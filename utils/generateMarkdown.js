@@ -32,6 +32,7 @@ function renderLicenseSection(license) {
 // Function created that returns a license badge based on which license is passed in; if there is no license, an empty string is returned
 function renderTestLink(tests) {
   if (tests != '')  { 
+    console.log(tests);
   return `* [Tests](#tests)`
 } else {
   return '';
@@ -65,7 +66,6 @@ function generateMarkdown(data) {
   ${renderLicenseLink(data.license)}
   * [Contribution](#contribution)
   ${renderTestLink(data.tests)}
-  * [Tests](#tests)
   * [Questions](#questions)
 
 

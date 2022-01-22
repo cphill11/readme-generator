@@ -1,35 +1,35 @@
-# k
+# O
 
-  
+  ![github license](https://img.shields.io/badge/License-Apache-blue.svg)
 
-  k
+  O
 
   ## Table of Contents
 
   * [Installation](#installation)
   * [Usage](#usage)
-  
+  * [License](#license)
   * [Contribution](#contribution)
-  * [Tests](#tests)
-  * [Tests](#tests)
+  
   * [Questions](#questions)
 
 
   ## Installation
-  k
+  O
 
   ## Usage
-  k
+  O
 
-  
+  ## License
+    Apache
+    Licensed software establishes the rights of all parties involved with the software, including: the author, the provider, and end users.  Licenses protect intellectual properties by limiting the liability of the vendor and limiting what other parties can do with covered software code.
 
 
   ## Contribution
-  
+  O
 
-  ## Tests 
-    k
+  
 
   ## Questions
 
-  If you have any questions, please contact me through email at k or through github at k.
+  If you have any questions, please contact me through email at O or through github at O.
