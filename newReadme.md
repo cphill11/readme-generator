@@ -1,9 +1,9 @@
-# README, Red-me.
+# README Generator so I Can Go On Break
 
-  ![github license](https://img.shields.io/badge/License-Apache-blue.svg)
+  ![github license](https://img.shields.io/badge/License-GNU-blue.svg)
 
   ## Description
-  Purportedly to make my life easier, I'm dubious at this time.
+  README.md creation tool for Devs who need time to snack
 
   ## Table of Contents
   * [Installation](#installation)
@@ -12,24 +12,25 @@
   * [License](#license)
   * [Contribution](#contribution)
 
-  
+  * [Tests](#tests)
   * [Questions](#questions)
 
   ## Installation
   npm, inquirer
 
   ## Usage
-  Sanity restoration 
+  Generate README.md file, rinse, repeat
 
   ## License
-    Apache
+    GNU
     Licensed software establishes the rights of all parties involved with the software, including: the author, the provider, and end users.  Licenses protect intellectual properties by limiting the liability of the vendor and limiting what other parties can do with covered software code.
 
   ## Contribution
-  No. No. NO.
+  Please just say "no".  Thank you.
 
-  
+  ## Tests 
+    None at this time.
 
   ## Questions
 
-  If you have any questions, please contact me through email at Booger@booger.com or through github at Booger.
+  If you have any questions, please contact me through email at criste.phillips@yahoo.com or through github at cphill11.
