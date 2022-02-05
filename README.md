@@ -36,13 +36,15 @@ Speed up file production of needed README.md files by answering prompts.
 ## Website
 https://cphill11.github.io/readme-generator/
 
+Screencastify link: https://watch.screencastify.com/v/VhVZlVpDkbl2nnwgSp4r
+
 ## Image
 
 ![Screenshot](/assets/images/screenshot.png)
 
 ## Credits:
 
-Criste Phillips (link to github profile)
+Criste Phillips 
 
 ## License
 MIT
