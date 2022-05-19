@@ -36,6 +36,8 @@ Speed up file production of needed README.md files by answering prompts.
 ## Website
 https://cphill11.github.io/readme-generator/
 
+https://github.com/cphill11/readme-generator.git
+
 Screencastify link: https://watch.screencastify.com/v/VhVZlVpDkbl2nnwgSp4r
 
 ## Image
